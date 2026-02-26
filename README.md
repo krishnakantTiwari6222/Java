@@ -1,2 +1,2 @@
-# JavaScript
-JavaScript problems from basic 
+# Java
+Java Exception Handling
