@@ -11,17 +11,6 @@ public class Encapsultaion {
 
     private int speed;
 
-
-    public void accelerate(int increment){
-        speed += increment;
-    }
-
-    public void brake(int decrement){
-        speed -= decrement;
-        if(speed < 0){
-            speed = 0;
-        }
-    }
                                     // ALso we can remove any method if we want to don't change any properties or fields 
 
         public String getColor() {
@@ -46,7 +35,7 @@ public class Encapsultaion {
 
     public void setModel(String model) {
         this.model = model;
-        
+
     }
 
     public int getYearOfManufacture() {
