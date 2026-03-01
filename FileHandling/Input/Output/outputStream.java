@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 
-public class output {
+public class outputStream {
     public static void main(String[] args) {
         OutputStream os = System.out;
         // os.write(emoji); is not in range
