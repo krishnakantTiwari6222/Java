@@ -1,5 +1,6 @@
 package LambdaExpression;
 
+@FunctionalInterface
 public interface employee {
 
     String getName();
