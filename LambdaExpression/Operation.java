@@ -1,6 +1,8 @@
 package LambdaExpression;
 import java.util.stream.*;
 import java.lang.Thread;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.*;
 public class Operation {
     public static void main(String[] args) {
@@ -25,7 +27,25 @@ public class Operation {
 
         Consumer<Integer> consume = x -> System.out.println(x);
 
+        // It is a functional interface where single method is iplemented and it does not return anything . it only prints 
+
+        List<String> list = Arrays.asList("java", "Python" , "html");
+
+        list.stream().forEach(x -> System.out.println(x));
+
+        // Output
+        // java
+        // Python
+        // html
 
 
+
+        // Also we can use method reference in this like
+        // Method Reference :- using method without invoking & in place of lambda expression
+
+        // So in this we are giving the method as a variable like below
+
+
+        list.stream().forEach(System.out::println);
     }
 }
